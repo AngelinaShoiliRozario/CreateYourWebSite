@@ -7,19 +7,19 @@
                  <h5 class="modal-title" id="staticBackdropLabel">
                      Upload image here
                  </h5>
-                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 <span type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
              </div>
              <div class="modal-body">
                  {{-- content --}}
                  <input type="file" name="" id="" onchange="preview_image(this)">
              </div>
              <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                 <span type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                      Close
-                 </button>
-                 <button type="button" class="btn btn-primary">
+                 </span>
+                 <span type="button" class="btn btn-primary">
                      Understood
-                 </button>
+                 </span>
              </div>
          </div>
      </div>
