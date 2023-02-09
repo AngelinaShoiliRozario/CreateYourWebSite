@@ -207,9 +207,12 @@
         <!-- Banner Area Start -->
        @include('sections.section_1')
         <!-- Banner Area End -->
+        <!-- Banner Area Start -->
+       @include('sections.section_2')
+        <!-- Banner Area End -->
 
         <!-- Who We Are Area Start -->
-        <div id="Who" class="about who-we-wre ptb-100">
+        {{-- <div id="Who" class="about who-we-wre ptb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -261,7 +264,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Who We Are Area End -->
 
         <!-- Why Choose Us Start -->
