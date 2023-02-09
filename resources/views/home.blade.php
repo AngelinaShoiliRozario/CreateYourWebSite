@@ -204,314 +204,48 @@
             </div>
         </div>
 
-        <!-- Banner Area Start -->
+        <!-- section 1 Start -->
        @include('sections.section_1')
-        <!-- Banner Area End -->
-        <!-- Banner Area Start -->
-       @include('sections.section_2')
-        <!-- Banner Area End -->
+        <!-- section 1 End -->
+
 
         <!-- Who We Are Area Start -->
-        {{-- <div id="Who" class="about who-we-wre ptb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="who-we-are-text-area">
-                            <div class="default-section-title">
-                                <span class="editabletext" contenteditable="true" name="section_2_top" onblur="section_2_top_change(this)">Who We Are</span>
-                                <input class="d-none" type="text" name="section_2_top" id="section_2_top">
-                                <h3 class="editabletext" contenteditable="true" name="section_2_title" onblur="section_2_title_change(this)">
-                                    We Help The Best Connectivity Across The Whole World
-                                </h3>
-                                <input class="d-none" type="text" name="section_2_title" id="section_2_title">
-                                <p class="editabletext" contenteditable="true" name="section_2_desc"
-                                onblur="section_2_desc_change(this)">
-                                    There are many variations of passages of Lorem Ipsum
-                                    available, but the majority in some form, by injected humour,
-                                    or randomised words which don't look.
-                                </p>
-                                <input class="d-none" type="text" name="section_2_desc" id="section_2_desc">
-                                <p class="editabletext" contenteditable="true" name="section_2_desc_2"
-                                onblur="section_2_desc_2_change(this)">
-                                    Slightly believable. If you are going to use a passage of
-                                    Lorem Ipsum, you need to be sthere isn't anything embarrassing
-                                    hidden in the middle of text. All the Lorem Ipgenerators onhe
-                                    Internet tend to repeat predefined chunks as necessary, making
-                                    this the first true.
-                                </p>
-                                <input class="d-none" type="text" name="section_2_desc_2" id="section_2_desc_2">
-                            </div>
-                            <a class="default-button mt-30" href="#WhyAgain" contenteditable="true" name="section_2_btn"  
-                            onblur="section_2_btn_change(this)">Know More About Us</a>
-                            <input class="d-none" type="text" name="section_2_btn" id="section_2_btn_id">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="who-we-wre-img-area">
-                            <img src="assets/images/about/who-we.jpg" alt="img" />
-                            <div class="about-img-text-area">
-                                <div class="about-fun-facts abf-1">
-                                    <h2><span class="odometer" data-count="20">00</span>+</h2>
-                                    <p>Years Of Experiences</p>
-                                </div>
-                                <input class="d-none" type="text" name="section_2_btn" id="section_2_btn">
-                                <div class="about-fun-facts abf-2">
-                                    <h2><span class="odometer" data-count="2708">00</span>+</h2>
-                                    <p>Client In The World</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
+        <!-- section 2 Start -->
+
+       @include('sections.section_2')
+
+       <!-- section 2 End -->
         <!-- Who We Are Area End -->
 
         <!-- Why Choose Us Start -->
-        <div id="Why" class="service ptb-100 bg-f9f9f9">
-            <div class="container">
-                <div class="default-section-title default-section-title-middle">
-                    <span class="editabletext" contenteditable="true" name="Choose_us_section_title" 
-                    onblur="Choose_us_section_title_change(this)">Everyone Asked</span>
-                    <input class="d-none" type="text" name="Choose_us_section_title" id="Choose_us_section_title_id">
-                    <h3 class="editabletext" contenteditable="true" name="Choose_us_section_heading" 
-                    onblur="Choose_us_section_heading_change(this)">Why Choose Us</h3>
-                    <input class="d-none" type="text" name="Choose_us_section_heading" id="Choose_us_section_heading_id">
-                </div>
-                <div class="section-content">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="features-card mt-30">
-                                <div class="features-card-content">
-                                    <i class="flaticon-performance"></i>
-                                    <h4 class="editabletext" contenteditable="true" name="Choose_us_card_1_heading" 
-                                    onblur="Choose_us_card_1_heading_change(this)">Fast Speed</h4>
-                                    <input class="d-none" type="text" name="Choose_us_card_1_heading" id="Choose_us_card_1_heading_id">
-                                    <p class="editabletext" contenteditable="true" name="Choose_us_card_1_body" 
-                                    onblur="Choose_us_card_1_body_change(this)">
-                                        here are many variatipassages of Lorem Ipsum availalteratin.
-                                    </p>
-                                    <input class="d-none" type="text" name="Choose_us_card_1_body"
-                                        id="Choose_us_card_1_body_id">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="features-card mt-30">
-                                <div class="features-card-content">
-                                    <i class="flaticon-home"></i>
-                                    <h4 class="editabletext" contenteditable="true" name="Choose_us_card_2_heading" 
-                                    onblur="Choose_us_card_2_heading_change(this)">Free Installation</h4>
-                                    <input class="d-none" type="text" name="Choose_us_card_2_heading" id="Choose_us_card_2_heading_id">
-                                    <p class="editabletext" contenteditable="true" name="Choose_us_card_2_body" 
-                                    onblur="Choose_us_card_2_body_change(this)">
-                                        here are many variatipassages of Lorem Ipsum availalteratin.
-                                    </p>
-                                    <input class="d-none" type="text" name="Choose_us_card_2_body"
-                                        id="Choose_us_card_2_body_id">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="features-card mt-30">
-                                <div class="features-card-content">
-                                    <i class="flaticon-money"></i>
-                                    <h4 class="editabletext" contenteditable="true" name="Choose_us_card_3_heading" 
-                                    onblur="Choose_us_card_3_heading_change(this)">Flexible Tariff Plans</h4>
-                                    <input class="d-none" type="text" name="Choose_us_card_3_heading" id="Choose_us_card_3_heading_id">
-                                    <p class="editabletext" contenteditable="true" name="Choose_us_card_3_body" 
-                                    onblur="Choose_us_card_3_body_change(this)">
-                                        here are many variatipassages of Lorem Ipsum availalteratin.
-                                    </p>
-                                    <input class="d-none" type="text" name="Choose_us_card_3_body"
-                                        id="Choose_us_card_3_body_id">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="features-card mt-30">
-                                <div class="features-card-content">
-                                    <i class="flaticon-customer-support"></i>
-                                    <h4  class="editabletext" contenteditable="true" name="Choose_us_card_4_heading" 
-                                    onblur="Choose_us_card_4_heading_change(this)">24/7 Support</h4>
-                                    <input class="d-none" type="text" name="Choose_us_card_4_heading" id="Choose_us_card_4_heading_id">
-                                    <p class="editabletext" contenteditable="true" name="Choose_us_card_4_body" 
-                                    onblur="Choose_us_card_4_body_change(this)">
-                                        here are many variatipassages of Lorem Ipsum availalteratin.
-                                    </p>
-                                    <input class="d-none" type="text" name="Choose_us_card_4_body"
-                                        id="Choose_us_card_4_body_id">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- section 3 Start -->
+
+       @include('sections.section_3')
+
+       <!-- section 3 End -->
         <!-- Why Choose Us End -->
 
+
         <!-- About Area Start -->
-        <div id="About" class="about ptb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="inner-about-img-area">
-                            <img src="assets/images/about/inner-about.png" alt="image" />
-                            <div class="inner-about-img-card">
-                                <div class="iaic">
-                                    <h2><span class="odometer" data-count="20">00</span>+</h2>
-                                    <p>Years Of Experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="about-inner-text-area pl-20">
-                            <div class="default-section-title">
-                                <span class="editabletext" contenteditable="true" name="Section_4_title" 
-                                onblur="Section_4_title_change(this)">About Noso</span>
-                                <input class="d-none" type="text" name="Section_4_title" id="Section_4_title_id">
-                                <h3 class="editabletext" contenteditable="true" name="Section_4_heiding" 
-                                onblur="Section_4_heiding_change(this)">Feasible High-Speed Broadband Connection</h3>
-                                <input class="d-none" type="text" name="Section_4_heiding" id="Section_4_heiding_id">
-                                <p class="editabletext" contenteditable="true" name="Section_4_body" 
-                                onblur="Section_4_body_change(this)" >
-                                    There are many variations of passages of Lorem Ipsum
-                                    available, but the majorihsuffered alteration in some form, by
-                                    injected humour, or randomised words which don't look eve.
-                                </p>
-                                <input class="d-none" type="text" name="Section_4_body" id="Section_4_body_id">
-                            </div>
-                            <div class="about-progress-bar-area progress-bar-area">
-                                <div id="bar1" class="barfiller">
-                                    <span class="label editabletext" contenteditable="true" name="Section_4_progress_title" 
-                                    onblur="Section_4_progress_title_change(this)">Full Network Visibility</span>
-                                    <input class="d-none" type="text" name="Section_4_progress_title" id="Section_4_progress_title_id">
-                                    <span class="tip"></span>
-                                    {{-- <input class="d-none" type="text" name="Section_4_body" id="Section_4_body_id"> --}}
-                                    <span class="fill" data-percentage="90"></span>
-                                    {{-- <input class="d-none" type="text" name="Section_4_progress_value" id="Section_4_progress_value_id"> --}}
-                                </div>
-                                <div id="bar2" class="barfiller">
-                                    <span class="label editabletext" contenteditable="true" name="Section_4_progress_2_title" 
-                                    onblur="Section_4_progress_2_title_change(this)">Successful Contacts</span>
-                                    <input class="d-none" type="text" name="Section_4_progress_2_title" id="Section_4_progress_2_title_id">
-                                    <span class="tip"></span>
-                                    <span class="fill" data-percentage="80"></span>
-                                </div>
-                                <div id="bar3" class="barfiller">
-                                    <span class="label editabletext" contenteditable="true" name="Section_4_progress_3_title" 
-                                    onblur="Section_4_progress_3_title_change(this)">Resilient Connectivity</span>
-                                    <input class="d-none" type="text" name="Section_4_progress_3_title" id="Section_4_progress_3_title_id">
-                                    <span class="tip"></span>
-                                    <span class="fill" data-percentage="85"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- section 3 Start -->
+
+       @include('sections.section_4')
+
+       <!-- section 3 End -->
         <!-- About Area End -->
 
         <!-- Why Choose Us Area Start -->
         {{-- Section 5 start --}}
-        <div id="WhyAgain" class="why-we why-we-3 pb-100 bg-f9f9f9">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6">
-                        <div class="why-we-text-area-3">
-                            <div class="default-section-title">
-                                <span class=" editabletext" contenteditable="true" name="Section_5_title" 
-                                onblur="Section_5_title_change(this)">Why Choose Us</span>
-                                <input class="d-none" type="text" name="Section_5_title" id="Section_5_title_id">
-                                <h3 class=" editabletext" contenteditable="true" name="Section_5_heading" 
-                                onblur="Section_5_heading_change(this)">More Great Reasons To Choose Noso Broadband Internet</h3>
-                                <input class="d-none" type="text" name="Section_5_heading" id="Section_5_heading_id">
-                                
-                            {{-- onblur="Section_5_body_change(this)" onchange="Section_5_body_change()" --}}
-                                <p class=" editabletext" contenteditable="true" name="Section_5_body" 
-                                onblur="Section_5_body_change(this)">
-                                    Here are many variations of passages of Lorem Ipsum available,
-                                    but the majority in some form, by injected humour, or
-                                    randomised words which don't look even.
-                                </p>
-                                <input class="d-none" type="text" name="Section_5_body" id="Section_5_body_id">
-                            </div>
-                            <div class="why-we-list-area-3">
-                                <ul>
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_1" 
-                                    onblur="Section_5_list_1_change(this)"><i class="flaticon-seen"></i> Fast Connection</li>
-                                    <input class="d-none" type="text" name="Section_5_list_1" id="Section_5_list_1_id">
 
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_2" 
-                                    onblur="Section_5_list_2_change(this)"><i class="flaticon-seen"></i> Satellite TV</li>
-                                    <input class="d-none" type="text" name="Section_5_list_2" id="Section_5_list_2_id">
-
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_3" 
-                                    onblur="Section_5_list_3_change(this)"><i class="flaticon-seen"></i> Free Installation</li>
-                                    <input class="d-none" type="text" name="Section_5_list_3" id="Section_5_list_3_id">
-
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_4" 
-                                    onblur="Section_5_list_4_change(this)"><i class="flaticon-seen"></i> Home Security</li>
-                                    <input class="d-none" type="text" name="Section_5_list_4" id="Section_5_list_4_id">
-
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_5" 
-                                    onblur="Section_5_list_5_change(this)"><i class="flaticon-seen"></i> 24/7 Support</li>
-                                    <input class="d-none" type="text" name="Section_5_list_5" id="Section_5_list_5_id">
-
-                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_6" 
-                                    onblur="Section_5_list_6_change(this)"><i class="flaticon-seen"></i> Best Pricing</li>
-                                    <input class="d-none" type="text" name="Section_5_list_6" id="Section_5_list_6_id">
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 ">
-                        <div class="why-we-img-3 ">
-                            <img src="assets/images/why-we/ww-3.png" alt="image" />
-                            @include('components.image_background_adder')
-                        </div>
-                        @include('components.upload_img_modal')
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('sections.section_5')
+        
         <!-- Why Choose Us Area End -->
         {{-- Sectin 5 heading end --}}
 
         {{-- Section 6 heading starit --}}
         <!-- Newsletter Area Start -->
-        <div id="NewsLetter" class="newsletter ptb-100 newsletter-1">
-            <div class="shape">
-                <img class="shape1" src="assets/images/shapes/shape10.png" alt="image" />
-                <img class="shape2" src="assets/images/shapes/shape11.png" alt="shape" />
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="newsletter-text-area">
-                            <div class="default-section-title">
-                                <span class=" editabletext" contenteditable="true" name="Section_6_title" 
-                                onblur="Section_6_title_change(this)">Check Vibrant</span>
-                                <input class="d-none" type="text" name="Section_6_title" id="Section_6_title_id">
-                                <h3 class=" editabletext" contenteditable="true" name="Section_6_heading" 
-                                onblur="Section_6_heading_change(this)">Check Ability To Connect Our Services in Your Area</h3>
-                                <input class="d-none" type="text" name="Section_6_heading" id="Section_6_heading_id">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-
-                        <div class="input-group newsletter-form-area pt-30">
-                            <input type="text" class="form-control" placeholder="Enter Your Zip Code" />
-                            <span class="default-button">Check Now</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include("sections.section_6")
+        
         <!-- Newsletter Area End -->
 
         <!-- Pricing Area Start -->
