@@ -80,7 +80,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="topbar-left-area">
-                            <p contenteditable="true" name="topbar_left_text" onmouseout="topbar_left_text_change(this)">
+                            <p contenteditable="true" name="topbar_left_text" onblur="topbar_left_text_change(this)">
                                 Customer Service:
                                 <input class="d-none" type="text" name="topbar_left_text" id="topbar_left_text">
                                 <a href="tel:+8801872695474" >++880 187 269 5474</a>
@@ -191,12 +191,12 @@
                     <div class="col-lg-6">
                         <div class="banner-text-area banner-text-area-3 pl-20">
                             <h1 class="editabletext" contenteditable="true" name="section_1_title"
-                                onmouseout="section_1_title_change(this)">
+                                onblur="section_1_title_change(this)">
                                 Enjoy High Speed Internet With FASTNET BD
                             </h1>
                             <input class="d-none" type="text" name="section_1_title" id="section_1_title">
                             <p class="editabletext" contenteditable="true" name="section_1_desc"
-                                onmouseout="section_1_desc_change(this)">
+                                onblur="section_1_desc_change(this)">
                                 Dea of denouncing pleasure and praising pain was born and I will
                                 giyou a completeact of the system, and expound the ac teachings
                                 sed quia non numquam eiusmodi.
@@ -231,21 +231,21 @@
                     <div class="col-lg-6">
                         <div class="who-we-are-text-area">
                             <div class="default-section-title">
-                                <span class="editabletext" contenteditable="true" name="section_2_top" onmouseout="section_2_top_change(this)">Who We Are</span>
+                                <span class="editabletext" contenteditable="true" name="section_2_top" onblur="section_2_top_change(this)">Who We Are</span>
                                 <input class="d-none" type="text" name="section_2_top" id="section_2_top">
-                                <h3 class="editabletext" contenteditable="true" name="section_2_title" onmouseout="section_2_title_change(this)">
+                                <h3 class="editabletext" contenteditable="true" name="section_2_title" onblur="section_2_title_change(this)">
                                     We Help The Best Connectivity Across The Whole World
                                 </h3>
                                 <input class="d-none" type="text" name="section_2_title" id="section_2_title">
                                 <p class="editabletext" contenteditable="true" name="section_2_desc"
-                                onmouseout="section_2_desc_change(this)">
+                                onblur="section_2_desc_change(this)">
                                     There are many variations of passages of Lorem Ipsum
                                     available, but the majority in some form, by injected humour,
                                     or randomised words which don't look.
                                 </p>
                                 <input class="d-none" type="text" name="section_2_desc" id="section_2_desc">
                                 <p class="editabletext" contenteditable="true" name="section_2_desc_2"
-                                onmouseout="section_2_desc_2_change(this)">
+                                onblur="section_2_desc_2_change(this)">
                                     Slightly believable. If you are going to use a passage of
                                     Lorem Ipsum, you need to be sthere isn't anything embarrassing
                                     hidden in the middle of text. All the Lorem Ipgenerators onhe
@@ -255,7 +255,7 @@
                                 <input class="d-none" type="text" name="section_2_desc_2" id="section_2_desc_2">
                             </div>
                             <a class="default-button mt-30" href="#WhyAgain" contenteditable="true" name="section_2_btn"  
-                            onmouseout="section_2_btn_change(this)">Know More About Us</a>
+                            onblur="section_2_btn_change(this)">Know More About Us</a>
                             <input class="d-none" type="text" name="section_2_btn" id="section_2_btn_id">
                         </div>
                     </div>
@@ -285,10 +285,10 @@
             <div class="container">
                 <div class="default-section-title default-section-title-middle">
                     <span class="editabletext" contenteditable="true" name="Choose_us_section_title" 
-                    onmouseout="Choose_us_section_title_change(this)">Everyone Asked</span>
+                    onblur="Choose_us_section_title_change(this)">Everyone Asked</span>
                     <input class="d-none" type="text" name="Choose_us_section_title" id="Choose_us_section_title_id">
                     <h3 class="editabletext" contenteditable="true" name="Choose_us_section_heading" 
-                    onmouseout="Choose_us_section_heading_change(this)">Why Choose Us</h3>
+                    onblur="Choose_us_section_heading_change(this)">Why Choose Us</h3>
                     <input class="d-none" type="text" name="Choose_us_section_heading" id="Choose_us_section_heading_id">
                 </div>
                 <div class="section-content">
@@ -298,10 +298,10 @@
                                 <div class="features-card-content">
                                     <i class="flaticon-performance"></i>
                                     <h4 class="editabletext" contenteditable="true" name="Choose_us_card_1_heading" 
-                                    onmouseout="Choose_us_card_1_heading_change(this)">Fast Speed</h4>
+                                    onblur="Choose_us_card_1_heading_change(this)">Fast Speed</h4>
                                     <input class="d-none" type="text" name="Choose_us_card_1_heading" id="Choose_us_card_1_heading_id">
                                     <p class="editabletext" contenteditable="true" name="Choose_us_card_1_body" 
-                                    onmouseout="Choose_us_card_1_body_change(this)">
+                                    onblur="Choose_us_card_1_body_change(this)">
                                         here are many variatipassages of Lorem Ipsum availalteratin.
                                     </p>
                                     <input class="d-none" type="text" name="Choose_us_card_1_body" id="Choose_us_card_1_body_id">
@@ -313,10 +313,10 @@
                                 <div class="features-card-content">
                                     <i class="flaticon-home"></i>
                                     <h4 class="editabletext" contenteditable="true" name="Choose_us_card_2_heading" 
-                                    onmouseout="Choose_us_card_2_heading_change(this)">Free Installation</h4>
+                                    onblur="Choose_us_card_2_heading_change(this)">Free Installation</h4>
                                     <input class="d-none" type="text" name="Choose_us_card_2_heading" id="Choose_us_card_2_heading_id">
                                     <p class="editabletext" contenteditable="true" name="Choose_us_card_2_body" 
-                                    onmouseout="Choose_us_card_2_body_change(this)">
+                                    onblur="Choose_us_card_2_body_change(this)">
                                         here are many variatipassages of Lorem Ipsum availalteratin.
                                     </p>
                                     <input class="d-none" type="text" name="Choose_us_card_2_body" id="Choose_us_card_2_body_id">
@@ -328,10 +328,10 @@
                                 <div class="features-card-content">
                                     <i class="flaticon-money"></i>
                                     <h4 class="editabletext" contenteditable="true" name="Choose_us_card_3_heading" 
-                                    onmouseout="Choose_us_card_3_heading_change(this)">Flexible Tariff Plans</h4>
+                                    onblur="Choose_us_card_3_heading_change(this)">Flexible Tariff Plans</h4>
                                     <input class="d-none" type="text" name="Choose_us_card_3_heading" id="Choose_us_card_3_heading_id">
                                     <p class="editabletext" contenteditable="true" name="Choose_us_card_3_body" 
-                                    onmouseout="Choose_us_card_3_body_change(this)">
+                                    onblur="Choose_us_card_3_body_change(this)">
                                         here are many variatipassages of Lorem Ipsum availalteratin.
                                     </p>
                                     <input class="d-none" type="text" name="Choose_us_card_3_body" id="Choose_us_card_3_body_id">
@@ -343,10 +343,10 @@
                                 <div class="features-card-content">
                                     <i class="flaticon-customer-support"></i>
                                     <h4  class="editabletext" contenteditable="true" name="Choose_us_card_4_heading" 
-                                    onmouseout="Choose_us_card_4_heading_change(this)">24/7 Support</h4>
+                                    onblur="Choose_us_card_4_heading_change(this)">24/7 Support</h4>
                                     <input class="d-none" type="text" name="Choose_us_card_4_heading" id="Choose_us_card_4_heading_id">
                                     <p class="editabletext" contenteditable="true" name="Choose_us_card_4_body" 
-                                    onmouseout="Choose_us_card_4_body_change(this)">
+                                    onblur="Choose_us_card_4_body_change(this)">
                                         here are many variatipassages of Lorem Ipsum availalteratin.
                                     </p>
                                     <input class="d-none" type="text" name="Choose_us_card_4_body" id="Choose_us_card_4_body_id">
@@ -378,13 +378,13 @@
                         <div class="about-inner-text-area pl-20">
                             <div class="default-section-title">
                                 <span class="editabletext" contenteditable="true" name="Section_4_title" 
-                                onmouseout="Section_4_title_change(this)">About Noso</span>
+                                onblur="Section_4_title_change(this)">About Noso</span>
                                 <input class="d-none" type="text" name="Section_4_title" id="Section_4_title_id">
                                 <h3 class="editabletext" contenteditable="true" name="Section_4_heiding" 
-                                onmouseout="Section_4_heiding_change(this)">Feasible High-Speed Broadband Connection</h3>
+                                onblur="Section_4_heiding_change(this)">Feasible High-Speed Broadband Connection</h3>
                                 <input class="d-none" type="text" name="Section_4_heiding" id="Section_4_heiding_id">
                                 <p class="editabletext" contenteditable="true" name="Section_4_body" 
-                                onmouseout="Section_4_body_change(this)">
+                                onblur="Section_4_body_change(this)" >
                                     There are many variations of passages of Lorem Ipsum
                                     available, but the majorihsuffered alteration in some form, by
                                     injected humour, or randomised words which don't look eve.
@@ -394,20 +394,24 @@
                             <div class="about-progress-bar-area progress-bar-area">
                                 <div id="bar1" class="barfiller">
                                     <span class="label editabletext" contenteditable="true" name="Section_4_progress_title" 
-                                    onmouseout="Section_4_progress_title_change(this)">Full Network Visibility</span>
+                                    onblur="Section_4_progress_title_change(this)">Full Network Visibility</span>
                                     <input class="d-none" type="text" name="Section_4_progress_title" id="Section_4_progress_title_id">
                                     <span class="tip"></span>
                                     {{-- <input class="d-none" type="text" name="Section_4_body" id="Section_4_body_id"> --}}
-                                    <span class="fill" data-percentage="60"></span>
-                                    {{-- <input class="d-none" type="text" name="Section_4_body" id="Section_4_body_id"> --}}
+                                    <span class="fill" data-percentage="90"></span>
+                                    {{-- <input class="d-none" type="text" name="Section_4_progress_value" id="Section_4_progress_value_id"> --}}
                                 </div>
                                 <div id="bar2" class="barfiller">
-                                    <span class="label">Successful Contacts</span>
+                                    <span class="label editabletext" contenteditable="true" name="Section_4_progress_2_title" 
+                                    onblur="Section_4_progress_2_title_change(this)">Successful Contacts</span>
+                                    <input class="d-none" type="text" name="Section_4_progress_2_title" id="Section_4_progress_2_title_id">
                                     <span class="tip"></span>
                                     <span class="fill" data-percentage="80"></span>
                                 </div>
                                 <div id="bar3" class="barfiller">
-                                    <span class="label">Resilient Connectivity</span>
+                                    <span class="label editabletext" contenteditable="true" name="Section_4_progress_3_title" 
+                                    onblur="Section_4_progress_3_title_change(this)">Resilient Connectivity</span>
+                                    <input class="d-none" type="text" name="Section_4_progress_3_title" id="Section_4_progress_3_title_id">
                                     <span class="tip"></span>
                                     <span class="fill" data-percentage="85"></span>
                                 </div>
@@ -420,28 +424,54 @@
         <!-- About Area End -->
 
         <!-- Why Choose Us Area Start -->
+        {{-- Section 5 start --}}
         <div id="WhyAgain" class="why-we why-we-3 pb-100 bg-f9f9f9">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6">
                         <div class="why-we-text-area-3">
                             <div class="default-section-title">
-                                <span>Why Choose Us</span>
-                                <h3>More Great Reasons To Choose Noso Broadband Internet</h3>
-                                <p>
+                                <span class=" editabletext" contenteditable="true" name="Section_5_title" 
+                                onblur="Section_5_title_change(this)">Why Choose Us</span>
+                                <input class="d-none" type="text" name="Section_5_title" id="Section_5_title_id">
+                                <h3 class=" editabletext" contenteditable="true" name="Section_5_heading" 
+                                onblur="Section_5_heading_change(this)">More Great Reasons To Choose Noso Broadband Internet</h3>
+                                <input class="d-none" type="text" name="Section_5_heading" id="Section_5_heading_id">
+                                
+                            {{-- onblur="Section_5_body_change(this)" onchange="Section_5_body_change()" --}}
+                                <p class=" editabletext" contenteditable="true" name="Section_5_body" 
+                                onblur="Section_5_body_change(this)">
                                     Here are many variations of passages of Lorem Ipsum available,
                                     but the majority in some form, by injected humour, or
                                     randomised words which don't look even.
                                 </p>
+                                <input class="d-none" type="text" name="Section_5_body" id="Section_5_body_id">
                             </div>
                             <div class="why-we-list-area-3">
                                 <ul>
-                                    <li><i class="flaticon-seen"></i> Fast Connection</li>
-                                    <li><i class="flaticon-seen"></i> Satellite TV</li>
-                                    <li><i class="flaticon-seen"></i> Free Installation</li>
-                                    <li><i class="flaticon-seen"></i> Home Security</li>
-                                    <li><i class="flaticon-seen"></i> 24/7 Support</li>
-                                    <li><i class="flaticon-seen"></i> Best Pricing</li>
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_1" 
+                                    onblur="Section_5_list_1_change(this)"><i class="flaticon-seen"></i> Fast Connection</li>
+                                    <input class="d-none" type="text" name="Section_5_list_1" id="Section_5_list_1_id">
+
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_2" 
+                                    onblur="Section_5_list_2_change(this)"><i class="flaticon-seen"></i> Satellite TV</li>
+                                    <input class="d-none" type="text" name="Section_5_list_2" id="Section_5_list_2_id">
+
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_3" 
+                                    onblur="Section_5_list_3_change(this)"><i class="flaticon-seen"></i> Free Installation</li>
+                                    <input class="d-none" type="text" name="Section_5_list_3" id="Section_5_list_3_id">
+
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_4" 
+                                    onblur="Section_5_list_4_change(this)"><i class="flaticon-seen"></i> Home Security</li>
+                                    <input class="d-none" type="text" name="Section_5_list_4" id="Section_5_list_4_id">
+
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_5" 
+                                    onblur="Section_5_list_5_change(this)"><i class="flaticon-seen"></i> 24/7 Support</li>
+                                    <input class="d-none" type="text" name="Section_5_list_5" id="Section_5_list_5_id">
+
+                                    <li class=" editabletext" contenteditable="true" name="Section_5_list_6" 
+                                    onblur="Section_5_list_6_change(this)"><i class="flaticon-seen"></i> Best Pricing</li>
+                                    <input class="d-none" type="text" name="Section_5_list_6" id="Section_5_list_6_id">
                                 </ul>
                             </div>
                         </div>
@@ -457,7 +487,9 @@
             </div>
         </div>
         <!-- Why Choose Us Area End -->
+        {{-- Sectin 5 heading end --}}
 
+        {{-- Section 6 heading starit --}}
         <!-- Newsletter Area Start -->
         <div id="NewsLetter" class="newsletter ptb-100 newsletter-1">
             <div class="shape">
@@ -469,8 +501,12 @@
                     <div class="col-lg-6">
                         <div class="newsletter-text-area">
                             <div class="default-section-title">
-                                <span>Check Vibrant</span>
-                                <h3>Check Ability To Connect Our Services in Your Area</h3>
+                                <span class=" editabletext" contenteditable="true" name="Section_6_title" 
+                                onblur="Section_6_title_change(this)">Check Vibrant</span>
+                                <input class="d-none" type="text" name="Section_6_title" id="Section_6_title_id">
+                                <h3 class=" editabletext" contenteditable="true" name="Section_6_heading" 
+                                onblur="Section_6_heading_change(this)">Check Ability To Connect Our Services in Your Area</h3>
+                                <input class="d-none" type="text" name="Section_6_heading" id="Section_6_heading_id">
                             </div>
                         </div>
                     </div>

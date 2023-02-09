@@ -15,7 +15,48 @@
 //     console.log(section_2_title);
 // };
 
-// section 4 left side
+// section 5 felt side.
+const Section_5_title_change = (tag) => {
+    let Section_5_title = document.getElementById("Section_5_title_id");
+    Section_5_title.setAttribute("value", tag.innerHTML);
+};
+const Section_5_heading_change = (tag) => {
+    let Section_5_heading = document.getElementById("Section_5_heading_id");
+    console.log(Section_5_heading);
+    Section_5_heading.setAttribute("value", tag.innerHTML);
+};
+const Section_5_body_change = (tag) => {
+    let Section_5_body = document.getElementById("Section_5_body_id");
+    Section_5_body.setAttribute("value", tag.innerHTML);
+};
+// section 5 list
+const Section_5_list_1_change = (tag) => {
+    let Section_5_list_1 = document.getElementById("Section_5_list_1_id");
+    Section_5_list_1.setAttribute("value", tag.innerHTML);
+};
+const Section_5_list_2_change = (tag) => {
+    let Section_5_list_2 = document.getElementById("Section_5_list_2_id");
+    Section_5_list_2.setAttribute("value", tag.innerHTML);
+};
+const Section_5_list_3_change = (tag) => {
+    let Section_5_list_3 = document.getElementById("Section_5_list_3_id");
+    Section_5_list_3.setAttribute("value", tag.innerHTML);
+};
+const Section_5_list_4_change = (tag) => {
+    let Section_5_list_4 = document.getElementById("Section_5_list_4_id");
+    Section_5_list_4.setAttribute("value", tag.innerHTML);
+};
+const Section_5_list_5_change = (tag) => {
+    let Section_5_list_5 = document.getElementById("Section_5_list_5_id");
+    Section_5_list_5.setAttribute("value", tag.innerHTML);
+};
+const Section_5_list_6_change = (tag) => {
+    let Section_5_list_6 = document.getElementById("Section_5_list_6_id");
+    Section_5_list_6.setAttribute("value", tag.innerHTML);
+};
+
+
+// section 4 right side
 const Section_4_title_change = (tag) => {
     let Section_4_title = document.getElementById("Section_4_title_id");
     Section_4_title.setAttribute("value", tag.innerHTML);
@@ -32,6 +73,19 @@ const Section_4_body_change = (tag) => {
 const Section_4_progress_title_change = (tag) => {
     let Section_4_progress_title = document.getElementById("Section_4_progress_title_id");
     Section_4_progress_title.setAttribute("value", tag.innerHTML);
+};
+// const Section_4_progress_value_change = (tag) => {
+//     let Section_4_progress_value = document.getElementById("Section_4_progress_value_id");
+//     console.log("progress", Section_4_progress_value)
+//     Section_4_progress_value.setAttribute("data-percentage", tag.Section_4_progress_value);
+// };
+const Section_4_progress_2_title_change = (tag) => {
+    let Section_4_progress_2_title = document.getElementById("Section_4_progress_2_title_id");
+    Section_4_progress_2_title.setAttribute("value", tag.innerHTML);
+};
+const Section_4_progress_3_title_change = (tag) => {
+    let Section_4_progress_3_title = document.getElementById("Section_4_progress_3_title_id");
+    Section_4_progress_3_title.setAttribute("value", tag.innerHTML);
 };
 
 
@@ -98,18 +152,18 @@ const section_2_desc_change = (tag) => {
     section_2_desc.setAttribute("value", tag.innerHTML);
 };
 const section_2_desc_2_change = (tag) => {
+    // console.log(tag);
     let section_2_desc_2 = document.getElementById("section_2_desc_2");
     section_2_desc_2.setAttribute("value", tag.innerHTML);
 };
 const section_2_btn_change = (tag) => {
-    console.log("old value", tag)
     let section_2_btn = document.getElementById("section_2_btn_id");
     console.log("input btn", section_2_btn)
     section_2_btn.setAttribute("value", tag.innerHTML);
     console.log('change btn', section_2_btn)
 };
 
-// section_1_title
+section_1_title
 const section_1_title_change = (tag) => {
     // console.log(tag);
     let section_1_title = document.getElementById("section_1_title");
