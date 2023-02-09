@@ -1,10 +1,10 @@
-// const topbar_left_text_change = (tag) => {
-//     console.log(tag);
-//     let topbar_left_text = document.getElementById("topbar_left_text");
-//     console.log(topbar_left_text);
-//     topbar_left_text.setAttribute("value", tag.innerHTML);
-//     console.log(topbar_left_text);
-// };
+const topbar_left_text_change = (tag) => {
+    console.log(tag);
+    let topbar_left_text = document.getElementById("topbar_left_text");
+    console.log(topbar_left_text);
+    topbar_left_text.setAttribute("value", tag.innerHTML);
+    console.log(topbar_left_text);
+};
 
 // section_2_right_side
 // const section_2_title_change = (tag) => {
