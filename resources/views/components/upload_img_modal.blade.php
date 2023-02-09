@@ -11,7 +11,7 @@
              </div>
              <div class="modal-body">
                  {{-- content --}}
-                 <input type="file" name="" id="" onchange="preview_image(this)">
+                 <input type="file" name="section_1_img" id="" onchange="preview_image(this)">
              </div>
              <div class="modal-footer">
                  <span type="button" class="btn btn-secondary" data-bs-dismiss="modal">

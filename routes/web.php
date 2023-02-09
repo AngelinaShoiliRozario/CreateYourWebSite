@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OwnerController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-Route::post('/save_website', function (Request $request) {
-    dd($request);
-});
+// Route::post('/save_website', function (Request $request) {
+//     dd($request);
+// });
+Route::post('/save_website', [OwnerController::class, 'ownerEdited']);
