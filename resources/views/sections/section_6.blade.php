@@ -21,7 +21,11 @@
 
                 <div class="input-group newsletter-form-area pt-30">
                     <input type="text" class="form-control" placeholder="Enter Your Zip Code" />
-                    <span class="default-button">Check Now</span>
+                    {{-- <span class="default-button">Check Now</span> --}}
+                    <a type="button" class="default-button editabletext" contenteditable="true" name="Section_6_search_btn" 
+                    onblur="Section_6_search_btn_change(this)">Check Now</a>
+                    <input class="d-none" type="text" name="Section_6_search_btn" id="Section_6_search_btn_id">
+
                 </div>
 
             </div>

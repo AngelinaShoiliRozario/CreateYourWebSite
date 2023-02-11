@@ -1,10 +1,10 @@
-const topbar_left_text_change = (tag) => {
-    console.log(tag);
-    let topbar_left_text = document.getElementById("topbar_left_text");
-    console.log(topbar_left_text);
-    topbar_left_text.setAttribute("value", tag.innerHTML);
-    console.log(topbar_left_text);
-};
+// const topbar_left_text_change = (tag) => {
+//     console.log(tag);
+//     let topbar_left_text = document.getElementById("topbar_left_text");
+//     console.log(topbar_left_text);
+//     topbar_left_text.setAttribute("value", tag.innerHTML);
+//     console.log(topbar_left_text);
+// };
 
 // section_2_right_side
 // const section_2_title_change = (tag) => {
@@ -15,6 +15,108 @@ const topbar_left_text_change = (tag) => {
 //     console.log(section_2_title);
 // };
 
+// section 7 start
+
+const Section_7_title_change = (tag) => {
+    let Section_7_title = document.getElementById("Section_7_title_id");
+    Section_7_title.setAttribute("value", tag.innerHTML);
+};
+const Section_7_heading_change = (tag) => {
+    let Section_7_heading = document.getElementById("Section_7_heading_id");
+    Section_7_heading.setAttribute("value", tag.innerHTML);
+};
+
+// section 7 card start
+// Start card 1
+const Sec_7_card_1_num_change = (tag) => {
+    let Sec_7_card_1_num = document.getElementById("Sec_7_card_1_num_id");
+    Sec_7_card_1_num.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_cir_title_change = (tag) => {
+    let Sec_7_card_1_cir_title = document.getElementById("Sec_7_card_1_cir_title_id");
+    Sec_7_card_1_cir_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_title_change = (tag) => {
+    let Sec_7_card_1_title = document.getElementById("Sec_7_card_1_title_id");
+    Sec_7_card_1_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_Money_change = (tag) => {
+    let Sec_7_card_1_Money = document.getElementById("Sec_7_card_1_Money_id");
+    Sec_7_card_1_Money.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_heading_change = (tag) => {
+    let Sec_7_card_1_heading = document.getElementById("Sec_7_card_1_heading_id");
+    Sec_7_card_1_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_li_1_change = (tag) => {
+    let Sec_7_card_1_li_1 = document.getElementById("Sec_7_card_1_li_1_id");
+    Sec_7_card_1_li_1.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_li_2_change = (tag) => {
+    let Sec_7_card_1_li_2 = document.getElementById("Sec_7_card_1_li_2_id");
+    Sec_7_card_1_li_2.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_1_li_3_change = (tag) => {
+    let Sec_7_card_1_li_3 = document.getElementById("Sec_7_card_1_li_3_id");
+    Sec_7_card_1_li_3.setAttribute("value", tag.innerHTML);
+};
+// End card 1
+// Start card 2
+const Sec_7_card_2_num_change = (tag) => {
+    let Sec_7_card_2_num = document.getElementById("Sec_7_card_2_num_id");
+    Sec_7_card_2_num.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_cir_title_change = (tag) => {
+    let Sec_7_card_2_cir_title = document.getElementById("Sec_7_card_2_cir_title_id");
+    Sec_7_card_2_cir_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_title_change = (tag) => {
+    let Sec_7_card_2_title = document.getElementById("Sec_7_card_2_title_id");
+    Sec_7_card_2_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_Money_change = (tag) => {
+    let Sec_7_card_2_Money = document.getElementById("Sec_7_card_2_Money_id");
+    Sec_7_card_2_Money.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_heading_change = (tag) => {
+    let Sec_7_card_2_heading = document.getElementById("Sec_7_card_2_heading_id");
+    Sec_7_card_2_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_li_1_change = (tag) => {
+    let Sec_7_card_2_li_1 = document.getElementById("Sec_7_card_2_li_1_id");
+    Sec_7_card_2_li_1.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_li_2_change = (tag) => {
+    let Sec_7_card_2_li_2 = document.getElementById("Sec_7_card_2_li_2_id");
+    Sec_7_card_2_li_2.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_2_li_3_change = (tag) => {
+    let Sec_7_card_2_li_3 = document.getElementById("Sec_7_card_2_li_3_id");
+    Sec_7_card_2_li_3.setAttribute("value", tag.innerHTML);
+};
+// End card 2
+
+// section 7 end
+
+// section 6 start 
+
+const Section_6_title_change = (tag) => {
+    let Section_6_title = document.getElementById("Section_6_title_id");
+    Section_6_title.setAttribute("value", tag.innerHTML);
+};
+const Section_6_heading_change = (tag) => {
+    let Section_6_heading = document.getElementById("Section_6_heading_id");
+    Section_6_heading.setAttribute("value", tag.innerHTML);
+};
+const Section_6_search_btn_change = (tag) => {
+    let Section_6_search_btn = document.getElementById("Section_6_search_btn_id");
+    Section_6_search_btn.setAttribute("value", tag.innerHTML);
+};
+
+// section 6 end
+
+
+// section 5 start 
 // section 5 felt side.
 const Section_5_title_change = (tag) => {
     let Section_5_title = document.getElementById("Section_5_title_id");
@@ -54,8 +156,10 @@ const Section_5_list_6_change = (tag) => {
     let Section_5_list_6 = document.getElementById("Section_5_list_6_id");
     Section_5_list_6.setAttribute("value", tag.innerHTML);
 };
+// section 5 end 
 
 
+// section 4 start 
 // section 4 right side
 const Section_4_title_change = (tag) => {
     let Section_4_title = document.getElementById("Section_4_title_id");
@@ -88,7 +192,10 @@ const Section_4_progress_3_title_change = (tag) => {
     Section_4_progress_3_title.setAttribute("value", tag.innerHTML);
 };
 
+// section 4 end  
 
+
+// section 3 start 
 // Choose_us_section_title  or section 3
 const Choose_us_section_title_change = (tag) => {
     let Choose_us_section_title = document.getElementById("Choose_us_section_title_id");
@@ -137,6 +244,7 @@ const Choose_us_card_4_body_change = (tag) => {
     let Choose_us_card_4_body = document.getElementById("Choose_us_card_4_body_id");
     Choose_us_card_4_body.setAttribute("value", tag.innerHTML);
 };
+// section 3 end 
 
 // section_2_left_side
 const section_2_top_change = (tag) => {
@@ -152,30 +260,25 @@ const section_2_desc_change = (tag) => {
     section_2_desc.setAttribute("value", tag.innerHTML);
 };
 const section_2_desc_2_change = (tag) => {
-    // console.log(tag);
     let section_2_desc_2 = document.getElementById("section_2_desc_2");
     section_2_desc_2.setAttribute("value", tag.innerHTML);
 };
-const section_2_btn_change = (tag) => {
-    let section_2_btn = document.getElementById("section_2_btn_id");
-    console.log("input btn", section_2_btn)
-    section_2_btn.setAttribute("value", tag.innerHTML);
-    console.log('change btn', section_2_btn)
-};
+// const section_2_btn_change = (tag) => {
+//     let section_2_btn = document.getElementById("section_2_btn_id");
+//     console.log("input btn", section_2_btn)
+//     section_2_btn.setAttribute("value", tag.innerHTML);
+//     console.log('change btn', section_2_btn)
+// };
+// section 2 end 
 
-section_1_title
+// section 1 start 
 const section_1_title_change = (tag) => {
-    // console.log(tag);
     let section_1_title = document.getElementById("section_1_title");
-    // console.log(section_1_title);
     section_1_title.setAttribute("value", tag.innerHTML);
-    // console.log(section_1_title);
 };
 const section_1_desc_change = (tag) => {
     // console.log(tag);
     let section_1_desc = document.getElementById("section_1_desc");
-    // console.log(section_1_title);
     section_1_desc.setAttribute("value", tag.innerHTML);
-    // console.log(section_1_title);
 };
 

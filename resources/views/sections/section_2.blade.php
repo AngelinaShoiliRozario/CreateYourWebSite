@@ -27,9 +27,6 @@
                         </p>
                         <input class="d-none" type="text" name="section_2_desc_2" id="section_2_desc_2">
                     </div>
-                    {{-- <a class="default-button mt-30" href="#WhyAgain" contenteditable="true" name="section_2_btn"  
-                    onblur="section_2_btn_change(this)">Know More About Us</a>
-                    <input class="d-none" type="text" name="section_2_btn" id="section_2_btn_id"> --}}
                     <a class="default-button-3 default-button-3-active"
                                     style="position: relative;" id="section_1_single_btn">
                                     <span id="section_2_btn_span">Know More About Us</span>
@@ -114,7 +111,7 @@
                             <h2><span class="odometer" data-count="20">00</span>+</h2>
                             <p>Years Of Experiences</p>
                         </div>
-                        <input class="d-none" type="text" name="section_2_btn" id="section_2_btn">
+                        {{-- <input class="d-none" type="text" name="section_2_btn" id="section_2_btn"> --}}
                         <div class="about-fun-facts abf-2">
                             <h2><span class="odometer" data-count="2708">00</span>+</h2>
                             <p>Client In The World</p>
