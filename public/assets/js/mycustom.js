@@ -15,6 +15,122 @@
 //     console.log(section_2_title);
 // };
 
+// Section 14 start
+const Sec_14_title_change = (tag) => {
+    let Sec_14_title = document.getElementById("Sec_14_title_id");
+    Sec_14_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_14_heading_change = (tag) => {
+    let Sec_14_heading = document.getElementById("Sec_14_heading_id");
+    Sec_14_heading.setAttribute("value", tag.innerHTML);
+};
+// Card start
+const Sec_14_card_1_text_change = (tag) => {
+    let Sec_14_card_1_text = document.getElementById("Sec_14_card_1_text_id");
+    Sec_14_card_1_text.setAttribute("value", tag.innerHTML);
+};
+const Sec_14_card_1_name_change = (tag) => {
+    let Sec_14_card_1_name = document.getElementById("Sec_14_card_1_name_id");
+    Sec_14_card_1_name.setAttribute("value", tag.innerHTML);
+};
+const Sec_14_card_1_desig_change = (tag) => {
+    let Sec_14_card_1_desig = document.getElementById("Sec_14_card_1_desig_id");
+    Sec_14_card_1_desig.setAttribute("value", tag.innerHTML);
+};
+// section 14 end Sec_14_card_1_desig
+
+
+// Section 12 start
+const Sec_12_title_change = (tag) => {
+    let Sec_12_title = document.getElementById("Sec_12_title_id");
+    Sec_12_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_12_heading_change = (tag) => {
+    let Sec_12_heading = document.getElementById("Sec_12_heading_id");
+    Sec_12_heading.setAttribute("value", tag.innerHTML);
+};
+// Section 12 end
+
+
+
+
+
+// Section 9 start
+const Sec_9_title_change = (tag) => {
+    let Sec_9_title = document.getElementById("Sec_9_title_id");
+    Sec_9_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_9_heading_change = (tag) => {
+    let Sec_9_heading = document.getElementById("Sec_9_heading_id");
+    Sec_9_heading.setAttribute("value", tag.innerHTML);
+};
+// Card start
+// 1
+const Sec_9_card_1_title_change = (tag) => {
+    let Sec_9_card_1_title = document.getElementById("Sec_9_card_1_title_id");
+    Sec_9_card_1_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_9_card_1_price_change = (tag) => {
+    let Sec_9_card_1_price = document.getElementById("Sec_9_card_1_price_id");
+    Sec_9_card_1_price.setAttribute("value", tag.innerHTML);
+};
+// Section 9 end
+
+
+
+
+
+
+// Section 8 start
+const Sec_8_title_change = (tag) => {
+    let Sec_8_title = document.getElementById("Sec_8_title_id");
+    Sec_8_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_8_heading_change = (tag) => {
+    let Sec_8_heading = document.getElementById("Sec_8_heading_id");
+    Sec_8_heading.setAttribute("value", tag.innerHTML);
+};
+// Card start
+// 1
+const Sec_8_card_1_heading_change = (tag) => {
+    let Sec_8_card_1_heading = document.getElementById("Sec_8_card_1_heading_id");
+    Sec_8_card_1_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_8_card_1_body_change = (tag) => {
+    let Sec_8_card_1_body = document.getElementById("Sec_8_card_1_body_id");
+    Sec_8_card_1_body.setAttribute("value", tag.innerHTML);
+};
+// 2
+const Sec_8_card_2_heading_change = (tag) => {
+    let Sec_8_card_2_heading = document.getElementById("Sec_8_card_2_heading_id");
+    Sec_8_card_2_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_8_card_2_body_change = (tag) => {
+    let Sec_8_card_2_body = document.getElementById("Sec_8_card_2_body_id");
+    Sec_8_card_2_body.setAttribute("value", tag.innerHTML);
+};
+// 3
+const Sec_8_card_3_heading_change = (tag) => {
+    let Sec_8_card_3_heading = document.getElementById("Sec_8_card_3_heading_id");
+    Sec_8_card_3_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_8_card_3_body_change = (tag) => {
+    let Sec_8_card_3_body = document.getElementById("Sec_8_card_3_body_id");
+    Sec_8_card_3_body.setAttribute("value", tag.innerHTML);
+};
+// 4
+const Sec_8_card_4_heading_change = (tag) => {
+    let Sec_8_card_4_heading = document.getElementById("Sec_8_card_4_heading_id");
+    Sec_8_card_4_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_8_card_4_body_change = (tag) => {
+    let Sec_8_card_4_body = document.getElementById("Sec_8_card_4_body_id");
+    Sec_8_card_4_body.setAttribute("value", tag.innerHTML);
+};
+
+// Section 8 end
+
+
 // section 7 start
 
 const Section_7_title_change = (tag) => {
@@ -95,7 +211,74 @@ const Sec_7_card_2_li_3_change = (tag) => {
     Sec_7_card_2_li_3.setAttribute("value", tag.innerHTML);
 };
 // End card 2
-
+// Start card 3
+const Sec_7_card_3_num_change = (tag) => {
+    let Sec_7_card_3_num = document.getElementById("Sec_7_card_3_num_id");
+    Sec_7_card_3_num.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_cir_title_change = (tag) => {
+    let Sec_7_card_3_cir_title = document.getElementById("Sec_7_card_3_cir_title_id");
+    Sec_7_card_3_cir_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_title_change = (tag) => {
+    let Sec_7_card_3_title = document.getElementById("Sec_7_card_3_title_id");
+    Sec_7_card_3_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_Money_change = (tag) => {
+    let Sec_7_card_3_Money = document.getElementById("Sec_7_card_3_Money_id");
+    Sec_7_card_3_Money.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_heading_change = (tag) => {
+    let Sec_7_card_3_heading = document.getElementById("Sec_7_card_3_heading_id");
+    Sec_7_card_3_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_li_1_change = (tag) => {
+    let Sec_7_card_3_li_1 = document.getElementById("Sec_7_card_3_li_1_id");
+    Sec_7_card_3_li_1.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_li_2_change = (tag) => {
+    let Sec_7_card_3_li_2 = document.getElementById("Sec_7_card_3_li_2_id");
+    Sec_7_card_3_li_2.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_3_li_3_change = (tag) => {
+    let Sec_7_card_3_li_3 = document.getElementById("Sec_7_card_3_li_3_id");
+    Sec_7_card_3_li_3.setAttribute("value", tag.innerHTML);
+};
+// End card 3
+// Start card 4
+const Sec_7_card_4_num_change = (tag) => {
+    let Sec_7_card_4_num = document.getElementById("Sec_7_card_4_num_id");
+    Sec_7_card_4_num.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_cir_title_change = (tag) => {
+    let Sec_7_card_4_cir_title = document.getElementById("Sec_7_card_4_cir_title_id");
+    Sec_7_card_4_cir_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_title_change = (tag) => {
+    let Sec_7_card_4_title = document.getElementById("Sec_7_card_4_title_id");
+    Sec_7_card_4_title.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_Money_change = (tag) => {
+    let Sec_7_card_4_Money = document.getElementById("Sec_7_card_4_Money_id");
+    Sec_7_card_4_Money.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_heading_change = (tag) => {
+    let Sec_7_card_4_heading = document.getElementById("Sec_7_card_4_heading_id");
+    Sec_7_card_4_heading.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_li_1_change = (tag) => {
+    let Sec_7_card_4_li_1 = document.getElementById("Sec_7_card_4_li_1_id");
+    Sec_7_card_4_li_1.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_li_2_change = (tag) => {
+    let Sec_7_card_4_li_2 = document.getElementById("Sec_7_card_4_li_2_id");
+    Sec_7_card_4_li_2.setAttribute("value", tag.innerHTML);
+};
+const Sec_7_card_4_li_3_change = (tag) => {
+    let Sec_7_card_4_li_3 = document.getElementById("Sec_7_card_4_li_3_id");
+    Sec_7_card_4_li_3.setAttribute("value", tag.innerHTML);
+};
+// End card 4
 // section 7 end
 
 // section 6 start 

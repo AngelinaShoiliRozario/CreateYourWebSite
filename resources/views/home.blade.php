@@ -312,7 +312,7 @@
         <!-- Copyright Area End -->
         <button type="submit" class="btn btn-success">SAVE</button>
     </form>
-    <script>
+    {{-- <script>
         let preview_image = (tag) => {
             let image_upload_subpart = document.getElementById('image_upload_subpart');
             image_upload_subpart.classList.add('d-none');
@@ -327,7 +327,7 @@
             let image_upload_subpart = document.getElementById('image_upload_subpart');
             image_upload_subpart.classList.toggle('d-none');
         }
-    </script>
+    </script> --}}
     {{-- modal  --}}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

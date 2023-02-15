@@ -1,8 +1,12 @@
 <div id="Mail" class="contact pb-100">
     <div class="container">
         <div class="default-section-title default-section-title-middle">
-            <span>Send Message</span>
-            <h3>Drop Us Message For Query</h3>
+            <span class=" editabletext" contenteditable="true" name="Sec_12_title" 
+            onblur="Sec_12_title_change(this)">Send Message</span>
+            <input class="d-none" type="text" name="Sec_12_title" id="Sec_12_title_id">
+            <h3 class=" editabletext" contenteditable="true" name="Sec_12_heading" 
+            onblur="Sec_12_heading_change(this)">Drop Us Message For Query</h3>
+            <input class="d-none" type="text" name="Sec_12_heading" id="Sec_12_heading_id">
         </div>
         <div class="section-content">
             <div class="row align-items-center">

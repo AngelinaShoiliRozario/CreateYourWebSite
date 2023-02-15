@@ -108,7 +108,9 @@
                     <img src="assets/images/about/who-we.jpg" alt="img" />
                     <div class="about-img-text-area">
                         <div class="about-fun-facts abf-1">
-                            <h2><span class="odometer" data-count="20">00</span>+</h2>
+                            <h2 class="editabletext" contenteditable="true" name="section_1_title"
+                            onmouseout="section_1_title_change(this)"><span class="odometer" data-count="20">00</span>+</h2>
+                            <input class="d-none" type="text" name="section_1_title" id="section_1_title">
                             <p>Years Of Experiences</p>
                         </div>
                         {{-- <input class="d-none" type="text" name="section_2_btn" id="section_2_btn"> --}}

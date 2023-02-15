@@ -185,6 +185,22 @@
 
                                     });
                                 </script>
+                                <script>
+                                    let preview_image = (tag) => {
+                                        let image_upload_subpart = document.getElementById('image_upload_subpart');
+                                        image_upload_subpart.classList.add('d-none');
+                                        const [file] = tag.files;
+                                        if (file) {
+                                            blah.src = URL.createObjectURL(file);
+                                        }
+                                        console.log(tag.files);
+                                    }
+                            
+                                    const show_image_upload_option = () => {
+                                        let image_upload_subpart = document.getElementById('image_upload_subpart');
+                                        image_upload_subpart.classList.toggle('d-none');
+                                    }
+                                </script>
                             </li>
                         </ul>
                     </div>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Agency Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Travel Agency</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Destinations</a></li>
+				<li><a href="#">Tours</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Popular Destinations</h2>
+			<ul>
+				<li><img src="paris.jpg" alt="Paris">Paris</li>
+				<li><img src="new-york.jpg" alt="New York">New York</li>
+				<li><img src="tokyo.jpg" alt="Tokyo">Tokyo</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Featured Tours</h2>
+			<ul>
+				<li><img src="europe-tour.jpg" alt="Europe Tour">Europe Tour</li>
+				<li><img src="asia-tour.jpg" alt="Asia Tour">Asia Tour</li>
+				<li><img src="south-america-tour.jpg" alt="South America Tour">South America Tour</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Travel Agency. All rights reserved.</p>
+	</footer>
+</body>
+</html>

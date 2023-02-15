@@ -185,21 +185,37 @@
                     </div>
                     <div class="pricing-card-speed">
                         <div class="pcs">
-                            <h5>20</h5>
-                            <span>MBPS</span>
+                            <h5 class=" editabletext" contenteditable="true" name="Sec_7_card_3_num" 
+                            onblur="Sec_7_card_3_num_change(this)">20</h5>
+                            <input class="d-none" type="text" name="Sec_7_card_3_num" id="Sec_7_card_3_num_id">
+                            <span class=" editabletext" contenteditable="true" name="Sec_7_card_3_cir_title" 
+                            onblur="Sec_7_card_3_cir_title_change(this)">MBPS</span>
+                            <input class="d-none" type="text" name="Sec_7_card_3_cir_title" id="Sec_7_card_3_cir_title_id">
                         </div>
                     </div>
                     <div class="pricing-card-price">
-                        <span>Start From</span>
-                        <h2>৳1500<sub>/Month</sub></h2>
+                        <span class=" editabletext" contenteditable="true" name="Sec_7_card_3_title" 
+                        onblur="Sec_7_card_3_title_change(this)">Start From</span>
+                        <input class="d-none" type="text" name="Sec_7_card_3_title" id="Sec_7_card_3_title_id">
+                        <h2 class=" editabletext" contenteditable="true" name="Sec_7_card_3_Money" 
+                        onblur="Sec_7_card_3_Money_change(this)">৳1500<sub>/Month</sub></h2>
+                        <input class="d-none" type="text" name="Sec_7_card_3_Money" id="Sec_7_card_3_Money_id">
                     </div>
-                    <h3>Internet For Corporate</h3>
+                    <h3 class=" editabletext" contenteditable="true" name="Sec_7_card_3_heading" 
+                    onblur="Sec_7_card_3_heading_change(this)">Internet For Corporate</h3>
+                    <input class="d-none" type="text" name="Sec_7_card_3_heading" id="Sec_7_card_3_heading_id">
                     <ul>
-                        <li>
-                            <i class="flaticon-check-box"></i> Unlimited Device Allowed
-                        </li>
-                        <li><i class="flaticon-check-box"></i> All Devices</li>
-                        <li><i class="flaticon-check-box"></i> Dedicated IP</li>
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_3_li_1" 
+                        onblur="Sec_7_card_3_li_1_change(this)"><i class="flaticon-check-box"></i> Unlimited Device Allowed</li>
+                        <input class="d-none" type="text" name="Sec_7_card_3_li_1" id="Sec_7_card_3_li_1_id">
+
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_3_li_2" 
+                        onblur="Sec_7_card_3_li_2_change(this)"><i class="flaticon-check-box"></i> All Devices</li>
+                        <input class="d-none" type="text" name="Sec_7_card_3_li_2" id="Sec_7_card_3_li_2_id">
+
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_3_li_3" 
+                        onblur="Sec_7_card_3_li_3_change(this)"><i class="flaticon-check-box"></i> Dedicated IP</li>
+                        <input class="d-none" type="text" name="Sec_7_card_3_li_3" id="Sec_7_card_3_li_3_id">
                     </ul>
                     <a class="default-button-3" href="contact.html"><span>Book Now</span></a>
                 </div>
@@ -211,21 +227,37 @@
                     </div>
                     <div class="pricing-card-speed">
                         <div class="pcs">
-                            <h5>25</h5>
-                            <span>MBPS</span>
+                            <h5 class=" editabletext" contenteditable="true" name="Sec_7_card_4_num" 
+                            onblur="Sec_7_card_4_num_change(this)">25</h5>
+                            <input class="d-none" type="text" name="Sec_7_card_4_num" id="Sec_7_card_4_num_id">
+                            <span class=" editabletext" contenteditable="true" name="Sec_7_card_4_cir_title" 
+                            onblur="Sec_7_card_4_cir_title_change(this)">MBPS</span>
+                            <input class="d-none" type="text" name="Sec_7_card_4_cir_title" id="Sec_7_card_4_cir_title_id">
                         </div>
                     </div>
                     <div class="pricing-card-price">
-                        <span>Start From</span>
-                        <h2>৳2000<sub>/Month</sub></h2>
+                        <span class=" editabletext" contenteditable="true" name="Sec_7_card_4_title" 
+                        onblur="Sec_7_card_4_title_change(this)">Start From</span>
+                        <input class="d-none" type="text" name="Sec_7_card_4_title" id="Sec_7_card_4_title_id">
+                        <h2 class=" editabletext" contenteditable="true" name="Sec_7_card_4_Money" 
+                        onblur="Sec_7_card_4_Money_change(this)">৳2000<sub>/Month</sub></h2>
+                        <input class="d-none" type="text" name="Sec_7_card_4_Money" id="Sec_7_card_4_Money_id">
                     </div>
-                    <h3>Internet For Corporate</h3>
+                    <h3 class=" editabletext" contenteditable="true" name="Sec_7_card_4_heading" 
+                    onblur="Sec_7_card_4_heading_change(this)">Internet For Corporate</h3>
+                    <input class="d-none" type="text" name="Sec_7_card_4_heading" id="Sec_7_card_4_heading_id">
                     <ul>
-                        <li>
-                            <i class="flaticon-check-box"></i> Unlimited Device Allowed
-                        </li>
-                        <li><i class="flaticon-check-box"></i> All Devices</li>
-                        <li><i class="flaticon-check-box"></i> Dedicated IP</li>
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_4_li_1" 
+                        onblur="Sec_7_card_4_li_1_change(this)"><i class="flaticon-check-box"></i> Unlimited Device Allowed</li>
+                        <input class="d-none" type="text" name="Sec_7_card_4_li_1" id="Sec_7_card_4_li_1_id">
+
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_4_li_2" 
+                        onblur="Sec_7_card_4_li_2_change(this)"><i class="flaticon-check-box"></i> All Devices</li>
+                        <input class="d-none" type="text" name="Sec_7_card_4_li_2" id="Sec_7_card_4_li_2_id">
+
+                        <li class=" editabletext" contenteditable="true" name="Sec_7_card_4_li_3" 
+                        onblur="Sec_7_card_3_li_4_change(this)"><i class="flaticon-check-box"></i> Dedicated IP</li>
+                        <input class="d-none" type="text" name="Sec_7_card_4_li_3" id="Sec_7_card_4_li_3_id">
                     </ul>
                     <a class="default-button-3" href="contact.html"><span>Book Now</span></a>
                 </div>

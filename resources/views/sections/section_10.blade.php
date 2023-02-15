@@ -10,6 +10,7 @@
                     <i class="flaticon-world-map"></i>
                     <h2><span class="odometer" data-count="4520">00</span>+</h2>
                     <p>Clients In The World</p>
+                    {{-- <input class="d-none" type="text" name="Sec_9_card_1_price" id="Sec_9_card_1_price_id"> --}}
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">

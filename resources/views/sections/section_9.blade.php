@@ -1,8 +1,12 @@
 <div id="Product" class="product ptb-100">
     <div class="container">
         <div class="default-section-title default-section-title-middle">
-            <span>Online Store</span>
-            <h3>Noso Popular Devices</h3>
+            <span class=" editabletext" contenteditable="true" name="Sec_9_title" 
+            onblur="Sec_9_title_change(this)">Online Store</span>
+            <input class="d-none" type="text" name="Sec_9_title" id="Sec_9_title_id">
+            <h3 class=" editabletext" contenteditable="true" name="Sec_9_heading" 
+            onblur="Sec_9_heading_change(this)">Noso Popular Devices</h3>
+            <input class="d-none" type="text" name="Sec_9_heading" id="Sec_9_heading_id">
         </div>
         <div class="section-content">
             <div class="product-slider-area owl-carousel">
@@ -12,8 +16,14 @@
                                 alt="image" /></a>
                     </div>
                     <div class="product-card-text-area">
-                        <h4><a href="product-details.html">Steaming Router</a></h4>
-                        <p><del>$60.00</del> $50.00</p>
+                        <h4 class=" editabletext" contenteditable="true" name="Sec_9_card_1_title" 
+                        onblur="Sec_9_card_1_title_change(this)"><a href="product-details.html">Steaming Router</a></h4>
+                        <input class="d-none" type="text" name="Sec_9_card_1_title" id="Sec_9_card_1_title_id">
+                        
+                        <p class=" editabletext" contenteditable="true" name="Sec_9_card_1_price" 
+                        onblur="Sec_9_card_1_price_change(this)"><del>$60.00</del> $50.00</p>
+                        <input class="d-none" type="text" name="Sec_9_card_1_price" id="Sec_9_card_1_price_id">
+
                         <a class="default-button-3" href="cart.html"><span>View Product</span></a>
                     </div>
                 </div>
