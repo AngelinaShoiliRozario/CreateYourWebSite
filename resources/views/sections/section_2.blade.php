@@ -108,15 +108,25 @@
                     <img src="assets/images/about/who-we.jpg" alt="img" />
                     <div class="about-img-text-area">
                         <div class="about-fun-facts abf-1">
-                            <h2 class="editabletext" contenteditable="true" name="section_1_title"
-                            onmouseout="section_1_title_change(this)"><span class="odometer" data-count="20">00</span>+</h2>
-                            <input class="d-none" type="text" name="section_1_title" id="section_1_title">
-                            <p>Years Of Experiences</p>
+
+                            {{-- Tow number are same problem --}}
+                            
+                            <h2 class="editabletext" contenteditable="true" name="sec_2_year"
+                            onblur="sec_2_year_change(this)">
+                            <span class="odometer" data-count="20">00</span>+</h2>
+                            <input class="d-none" type="text" name="sec_2_year" id="sec_2_year_id">
+                            <p class="editabletext" contenteditable="true" name="sec_2_year_text"
+                            onblur="sec_2_year_text_change(this)">Years Of Experiences</p>
+                            <input class="d-none" type="text" name="sec_2_year_text" id="sec_2_year_text_id">
                         </div>
-                        {{-- <input class="d-none" type="text" name="section_2_btn" id="section_2_btn"> --}}
                         <div class="about-fun-facts abf-2">
-                            <h2><span class="odometer" data-count="2708">00</span>+</h2>
-                            <p>Client In The World</p>
+                            <h2 class="editabletext" contenteditable="true" name="sec_2_year_file"
+                            onblur="sec_2_year_file_change(this)"><span class="odometer" data-count="2708">00</span>+</h2>
+                            <input class="d-none" type="text" name="sec_2_year_file" id="sec_2_year_file_id">
+
+                            <p class="editabletext" contenteditable="true" name="sec_2_year_text_2"
+                            onblur="sec_2_year_text_2_change(this)">Client In The World</p>
+                            <input class="d-none" type="text" name="sec_2_year_text_2" id="sec_2_year_text_2_id">
                         </div>
                     </div>
                 </div>

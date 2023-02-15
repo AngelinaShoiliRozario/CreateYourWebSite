@@ -14,12 +14,12 @@
             <div class="col-lg-6">
                 <div class="banner-text-area banner-text-area-3 pl-20">
                     <h1 class="editabletext" contenteditable="true" name="section_1_title"
-                        onmouseout="section_1_title_change(this)">
+                    onblur="section_1_title_change(this)">
                         Enjoy High Speed Internet With FASTNET BD
                     </h1>
                     <input class="d-none" type="text" name="section_1_title" id="section_1_title">
                     <p class="editabletext" contenteditable="true" name="section_1_desc"
-                        onmouseout="section_1_desc_change(this)">
+                    onblur="section_1_desc_change(this)">
                         Dea of denouncing pleasure and praising pain was born and I will
                         giyou a completeact of the system, and expound the ac teachings
                         sed quia non numquam eiusmodi.

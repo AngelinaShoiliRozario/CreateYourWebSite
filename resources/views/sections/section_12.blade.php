@@ -59,7 +59,9 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-12">
                                 <span class="default-button" type="submit">
-                                    <span>Send Message</span>
+                                    <span class=" editabletext" contenteditable="true" name="Sec_12_send_btn" 
+                                    onblur="Sec_12_send_btn_change(this)">Send Message</span>
+                                    <input class="d-none" type="text" name="Sec_12_send_btn" id="Sec_12_send_btn_id">
                                 </span>
                                 <div id="msgSubmit" class="h6 text-center hidden"></div>
                                 <div class="clearfix"></div>

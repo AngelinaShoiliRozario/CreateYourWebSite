@@ -60,6 +60,17 @@ a:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+.contact-address{
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--blackColor);
+  text-decoration: none;
+  outline: 0 !important;
+}
+.contact-address:hover {
+  color: var(--mainColor);
+  text-decoration: none;
+}
 
 .form-control {
   border: 1px solid transparent !important;

@@ -11,11 +11,13 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-logo-area">
                         <a href="index.html"><img src="assets/images/white-logo.png" alt="image" /></a>
-                        <p>
+                        <p class="editabletext" contenteditable="true" name="sec_15_footer_icons_text"
+                        onblur="sec_15_footer_icons_text_change(this)" >
                             On the other hand, we denounce whteous indignation and dislike
                             men wh beguiled and er hand, we denounce whteous indignation
                             and dislike.
                         </p>
+                        <input class="d-none" type="text" name="sec_15_footer_icons_text" id="sec_15_footer_icons_text">
                         <div class="footer-icons-area">
                             <ul>
                                 <li>
@@ -40,7 +42,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links quick-links flp">
-                        <h3>Quick Links</h3>
+                        <h3 class="editabletext" contenteditable="true" name="sec_15_footer_quick_links"
+                        onblur="sec_15_footer_quick_links_change(this)">Quick Links</h3>
+                        <input class="d-none" type="text" name="sec_15_footer_quick_links" id="sec_15_footer_quick_links">
                         <ul>
                             <li>
                                 <i class="fas fa-arrow-right"></i>
@@ -63,7 +67,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links flp">
-                        <h3>Other Pages</h3>
+                        <h3 class="editabletext" contenteditable="true" name="sec_15_footer_other_page"
+                        onblur="sec_15_footer_other_page_change(this)">Other Pages</h3>
+                        <input class="d-none" type="text" name="sec_15_footer_other_page" id="sec_15_footer_other_page">
                         <ul>
                             <li>
                                 <i class="fas fa-arrow-right"></i>
@@ -86,7 +92,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links footer-contact">
-                        <h3>Get In Touch</h3>
+                        <h3 class="editabletext" contenteditable="true" name="sec_15_footer_get_in"
+                        onblur="sec_15_footer_get_in_change(this)">Get In Touch</h3>
+                        <input class="d-none" type="text" name="sec_15_footer_get_in" id="sec_15_footer_get_in">
                         <div class="footer-contact-card">
                             <i class="flaticon-phone-call"></i>
                             <a href="tel:802162020">+880 187 269 5474</a>
@@ -99,6 +107,9 @@
                         </div>
                         <div class="footer-contact-card">
                             <i class="flaticon-location"></i>
+                            {{-- <a href="https://goo.gl/maps/uVirgW7ijJ5harhy5" target="_blank">House:03 (2th
+                                floor),
+                                Road: 16, Sector: 11, Dhaka 1230</a> --}}
                             <a href="https://goo.gl/maps/uVirgW7ijJ5harhy5" target="_blank">House:03 (2th
                                 floor),
                                 Road: 16, Sector: 11, Dhaka 1230</a>

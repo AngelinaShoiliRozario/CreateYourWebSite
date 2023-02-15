@@ -1,19 +1,21 @@
-// const topbar_left_text_change = (tag) => {
-//     console.log(tag);
-//     let topbar_left_text = document.getElementById("topbar_left_text");
-//     console.log(topbar_left_text);
-//     topbar_left_text.setAttribute("value", tag.innerHTML);
-//     console.log(topbar_left_text);
-// };
-
-// section_2_right_side
-// const section_2_title_change = (tag) => {
-//     console.log("this is",tag);
-//     let section_2_title = document.getElementById("section_2_title");
-//     console.log(section_2_title);
-//     section_2_title.setAttribute("value", tag.innerHTML);
-//     console.log(section_2_title);
-// };
+// Section 15 footer start
+const sec_15_footer_icons_text_change = (tag) => {
+    let sec_15_footer_icons_text = document.getElementById("sec_15_footer_icons_text");
+    sec_15_footer_icons_text.setAttribute("value", tag.innerHTML);
+};
+const sec_15_footer_quick_links_change = (tag) => {
+    let sec_15_footer_quick_links = document.getElementById("sec_15_footer_quick_links");
+    sec_15_footer_quick_links.setAttribute("value", tag.innerHTML);
+};
+const sec_15_footer_other_page_change = (tag) => {
+    let sec_15_footer_other_page = document.getElementById("sec_15_footer_other_page");
+    sec_15_footer_other_page.setAttribute("value", tag.innerHTML);
+};
+const sec_15_footer_get_in_change = (tag) => {
+    let sec_15_footer_get_in = document.getElementById("sec_15_footer_get_in");
+    sec_15_footer_get_in.setAttribute("value", tag.innerHTML);
+};
+// Section 15 footer end
 
 // Section 14 start
 const Sec_14_title_change = (tag) => {
@@ -49,10 +51,87 @@ const Sec_12_heading_change = (tag) => {
     let Sec_12_heading = document.getElementById("Sec_12_heading_id");
     Sec_12_heading.setAttribute("value", tag.innerHTML);
 };
+const Sec_12_send_btn_change = (tag) => {
+    let Sec_12_send_btn = document.getElementById("Sec_12_send_btn_id");
+    Sec_12_send_btn.setAttribute("value", tag.innerHTML);
+};
 // Section 12 end
 
 
+// Section 11 start
+const sec_11_Location_title_change = (tag) => {
+    let sec_11_Location_title = document.getElementById("sec_11_Location_title");
+    sec_11_Location_title.setAttribute("value", tag.innerHTML);
+};
+const sec_11_address_change = (tag) => {
+    let sec_11_address = document.getElementById("sec_11_address");
+    sec_11_address.setAttribute("value", tag.innerHTML);
+};
+const sec_11_email_title_change = (tag) => {
+    let sec_11_email_title = document.getElementById("sec_11_email_title");
+    sec_11_email_title.setAttribute("value", tag.innerHTML);
+};
+const sec_11_1_email_change = (tag) => {
+    let sec_11_1_email = document.getElementById("sec_11_1_email");
+    sec_11_1_email.setAttribute("value", tag.innerHTML);
+};
+const sec_11_2_email_change = (tag) => {
+    let sec_11_2_email = document.getElementById("sec_11_2_email");
+    sec_11_2_email.setAttribute("value", tag.innerHTML);
+};
+const sec_11_phone_title_change = (tag) => {
+    let sec_11_phone_title = document.getElementById("sec_11_phone_title");
+    sec_11_phone_title.setAttribute("value", tag.innerHTML);
+};
+const sec_11_phone_1_num_change = (tag) => {
+    let sec_11_phone_1_num = document.getElementById("sec_11_phone_1_num");
+    let sec_11_phone_1_num_value = tag.innerHTML;
+    tag.href = sec_11_phone_1_num_value
+    sec_11_phone_1_num.setAttribute("value", tag.innerHTML);
+};
+const sec_11_phone_2_num_change = (tag) => {
+    let sec_11_phone_2_num = document.getElementById("sec_11_phone_2_num");
+    let sec_11_phone_2_num_value = tag.innerHTML;
+    tag.href = sec_11_phone_2_num_value
+    sec_11_phone_2_num.setAttribute("value", tag.innerHTML);
+};
+// Section 11 end
 
+
+// Section 10 start
+// Fun facts area Start
+
+const sec_10_count_change = (tag) =>{
+    let inner_value = tag.innerHTML
+    console.log("tag tag tag", tag);
+    console.log("inner value",inner_value);
+    // let tag_valur = document.getElementById("Fun_facts_1_id");
+    // tag_valur.setAttribute("value", tag.innerHTML);
+}
+
+
+
+const Sec_10_1_Fun_facts_change = (tag) => {
+    let Sec_10_1_Fun_facts = document.getElementById("Sec_10_1_Fun_facts_id");
+    Sec_10_1_Fun_facts.setAttribute("value", tag.innerHTML);
+};
+
+const Sec_10_2_Fun_facts_change = (tag) => {
+    let Sec_10_2_Fun_facts = document.getElementById("Sec_10_2_Fun_facts_id");
+    Sec_10_2_Fun_facts.setAttribute("value", tag.innerHTML);
+};
+
+const Sec_10_3_Fun_facts_change = (tag) => {
+    let Sec_10_3_Fun_facts = document.getElementById("Sec_10_3_Fun_facts_id");
+    Sec_10_3_Fun_facts.setAttribute("value", tag.innerHTML);
+};
+
+const Sec_10_4_Fun_facts_change = (tag) => {
+    let Sec_10_4_Fun_facts = document.getElementById("Sec_10_4_Fun_facts_id");
+    Sec_10_4_Fun_facts.setAttribute("value", tag.innerHTML);
+};
+// Fun facts area end
+// Section 10 end
 
 
 // Section 9 start
@@ -446,13 +525,32 @@ const section_2_desc_2_change = (tag) => {
     let section_2_desc_2 = document.getElementById("section_2_desc_2");
     section_2_desc_2.setAttribute("value", tag.innerHTML);
 };
-// const section_2_btn_change = (tag) => {
-//     let section_2_btn = document.getElementById("section_2_btn_id");
-//     console.log("input btn", section_2_btn)
-//     section_2_btn.setAttribute("value", tag.innerHTML);
-//     console.log('change btn', section_2_btn)
-// };
+// Section 2 right side
+
+// Section 2 problem
+const sec_2_year_change = (tag) => {
+    let sec_2_year = document.getElementById("sec_2_year_id");
+    sec_2_year.setAttribute("value", tag.innerHTML);
+};
+const sec_2_year_text_change = (tag) => {
+    let sec_2_year_text = document.getElementById("sec_2_year_text_id");
+    sec_2_year_text.setAttribute("value", tag.innerHTML);
+};
+// Section 2 problem
+const sec_2_year_file_change = (tag) => {
+    let sec_2_year_file = document.getElementById("sec_2_year_file_id");
+    sec_2_year_file.setAttribute("value", tag.innerHTML);
+};
+const sec_2_year_text_2_change = (tag) => {
+    let sec_2_year_text_2 = document.getElementById("sec_2_year_text_2_id");
+    sec_2_year_text_2.setAttribute("value", tag.innerHTML);
+};
 // section 2 end 
+
+
+
+
+
 
 // section 1 start 
 const section_1_title_change = (tag) => {

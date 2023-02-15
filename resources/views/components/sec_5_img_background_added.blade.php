@@ -13,7 +13,7 @@
             <img src="./assets/images/banner/banner-1-bg.jpg" alt="" style="width: 33.3333%; height: auto" />
             <img src="./assets/images/banner/banner-3.png" alt="" style="width: 33.3333%; height: auto" />
         </div>
-        <span class="btn mt-1 w-100 btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <span class="btn mt-1 w-100 btn-outline-info" data-bs-toggle="modal" data-bs-target="#sec_5_modal">
             upload image
         </span>
         <select class="form-select select2">
@@ -25,10 +25,10 @@
             <option value="fit">fit</option>
 
         </select>
-        <span class="btn mt-1 w-100 btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <span class="btn mt-1 w-100 btn-outline-danger" data-bs-toggle="modal" data-bs-target="#sec_5_modal">
             Remove
         </span><span class="btn mt-1 w-100 btn-outline-success mb-2" data-bs-toggle="modal"
-            data-bs-target="staticBackdrop">
+            data-bs-target="#sec_5_modal">
             Save
         </span>
     </div>
