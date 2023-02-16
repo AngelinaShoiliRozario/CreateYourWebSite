@@ -1474,6 +1474,24 @@ Default Button Area CSS
   letter-spacing: 1px;
 }
 
+/*=====================================
+  Footer section Facebook icon edit 
+=======================================*/
+.footerIcon-btn-3 {
+  padding: 13px 13px;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  overflow: hidden;
+  border-radius: 5px;
+  color: var(--mainColor);
+  background-color: rgba(253, 130, 81, 0.1);
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--fontFamily);
+}
+
 /*================================================
 Default Section Title Area CSS
 =================================================*/
