@@ -100,32 +100,37 @@ const sec_11_phone_2_num_change = (tag) => {
 
 // Section 10 start
 // Fun facts area Start
-
-const sec_10_count_change = (tag) =>{
-    let inner_value = tag.innerHTML
-    console.log("tag tag tag", tag);
-    console.log("inner value",inner_value);
-    // let tag_valur = document.getElementById("Fun_facts_1_id");
-    // tag_valur.setAttribute("value", tag.innerHTML);
-}
-
-
-
+const Sec_10_1_count_facts_change = (tag) => {
+    let Sec_10_1_count_facts = document.getElementById("Sec_10_1_count_facts_id");
+    Sec_10_1_count_facts.setAttribute("value", tag.innerHTML);
+};
 const Sec_10_1_Fun_facts_change = (tag) => {
     let Sec_10_1_Fun_facts = document.getElementById("Sec_10_1_Fun_facts_id");
     Sec_10_1_Fun_facts.setAttribute("value", tag.innerHTML);
 };
 
+const Sec_10_2_count_facts_change = (tag) => {
+    let Sec_10_2_count_facts = document.getElementById("Sec_10_2_count_facts_id");
+    Sec_10_2_count_facts.setAttribute("value", tag.innerHTML);
+};
 const Sec_10_2_Fun_facts_change = (tag) => {
     let Sec_10_2_Fun_facts = document.getElementById("Sec_10_2_Fun_facts_id");
     Sec_10_2_Fun_facts.setAttribute("value", tag.innerHTML);
 };
 
+const Sec_10_3_count_facts_change = (tag) => {
+    let Sec_10_3_count_facts = document.getElementById("Sec_10_3_count_facts_id");
+    Sec_10_3_count_facts.setAttribute("value", tag.innerHTML);
+};
 const Sec_10_3_Fun_facts_change = (tag) => {
     let Sec_10_3_Fun_facts = document.getElementById("Sec_10_3_Fun_facts_id");
     Sec_10_3_Fun_facts.setAttribute("value", tag.innerHTML);
 };
 
+const Sec_10_4_count_facts_change = (tag) => {
+    let Sec_10_4_count_facts = document.getElementById("Sec_10_4_count_facts_id");
+    Sec_10_4_count_facts.setAttribute("value", tag.innerHTML);
+};
 const Sec_10_4_Fun_facts_change = (tag) => {
     let Sec_10_4_Fun_facts = document.getElementById("Sec_10_4_Fun_facts_id");
     Sec_10_4_Fun_facts.setAttribute("value", tag.innerHTML);

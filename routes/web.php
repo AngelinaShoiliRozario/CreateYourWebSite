@@ -22,3 +22,6 @@ Route::get('/', function () {
 //     dd($request);
 // });
 Route::post('/save_website', [OwnerController::class, 'ownerEdited']);
+Route::get('/show', function(){
+    return view('show');
+});

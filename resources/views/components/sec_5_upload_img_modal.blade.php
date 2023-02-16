@@ -1,4 +1,4 @@
- <!-- modal start -->
+ {{-- <!-- modal start -->
  <div class="modal fade" id="sec_5_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
      aria-labelledby="staticBackdropLabel" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -10,7 +10,7 @@
                  <span type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
              </div>
              <div class="modal-body">
-                 {{-- content --}}
+              
                  <input type="file" name="section_5_img" id="" onchange="sec_5_preview_image(this)">
              </div>
              <div class="modal-footer">
@@ -24,4 +24,4 @@
          </div>
      </div>
  </div>
- <!-- modal end -->
+ <!-- modal end --> --}}

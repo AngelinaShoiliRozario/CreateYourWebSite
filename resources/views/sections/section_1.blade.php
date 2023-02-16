@@ -33,12 +33,12 @@
                                     style="position: relative;" id="section_1_btn_1">
                                     <span id="section_1_btn_1_span">Learn More</span>
                                     <span id="sec_1_edit_btn_1_container"
-                                        class="d-flex justify-content-center align-items-center d-none"
-                                        style="position: absolute;background:rgba(255,255,255,0.6);inset:0;top:0;left:0;"
-                                        data-toggle="modal" data-target="#exampleModal"><span
-                                            id="section_1_btn_1_edit"
-                                            style="background: black;text:red;padding:0.2em 0.5em;">
-                                            Edit</span></span>
+                                    class="d-flex justify-content-center align-items-center d-none"
+                                    style="position: absolute;background:rgba(255,255,255,0.6);inset:0;top:0;left:0;"
+                                    data-toggle="modal" data-target="#exampleModal"><span
+                                    id="section_1_btn_1_edit"
+                                    style="background: black;text:red;padding:0.2em 0.5em;">
+                                    Edit</span></span>
 
                                 </a>
                                 <!-- Modal -->

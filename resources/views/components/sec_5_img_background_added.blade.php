@@ -1,4 +1,4 @@
-<div class="image_uploader">
+{{-- <div class="image_uploader">
     <div class="text-center p-2" onclick="sec_5_show_image_upload_option()">
         <img src="{{ asset('assets/myImages/camera.png') }}" alt="" height="30" width="30">
         Background
@@ -16,6 +16,7 @@
         <span class="btn mt-1 w-100 btn-outline-info" data-bs-toggle="modal" data-bs-target="#sec_5_modal">
             upload image
         </span>
+        
         <select class="form-select select2">
             <option value="tile" selected>tile</option>
             <option value="center">Center</option>
@@ -32,4 +33,4 @@
             Save
         </span>
     </div>
-</div>
+</div> --}}
