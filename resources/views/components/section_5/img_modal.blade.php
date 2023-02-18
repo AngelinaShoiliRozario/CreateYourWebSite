@@ -3,7 +3,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Upload a Image</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Upload a Image (Section 5)</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                   </button>
@@ -13,7 +13,10 @@
               </div>\
               <script>
                   const printt = (tag) => {
-                      let s_5 = document.getElementById('sec_5_img__');
+                      let s_5 = document.getElementById('sec_5_img__2');
+                      let s_5_2 = document.getElementById('sec_5_img__1');
+                      s_5_2.classList.add('d-none');
+                      let sec_previous_img_url = s_5.src;
                       const [file] = tag.files;
                       console.log(file);
                       if (file) {

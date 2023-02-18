@@ -1,11 +1,12 @@
 <!-- Button trigger modal -->
 
-  
 
 
-  <div class="image_uploader">
+
+<div class="image_uploader">
     <div class="text-center p-2" onclick="sec_5_show_image_upload_option5()">
-        <img src="{{ asset('assets/myImages/camera.png') }}" alt="" height="30" width="30">
+        
+        <img src="{{ asset('assets/myImages/camera-01.png') }}" alt="" height="30" width="30">
         Background
     </div>
 
@@ -20,16 +21,17 @@
         </div>
         <span type="button" class="btn mt-1 w-100 btn-outline-info" data-toggle="modal" data-target="#sec5">
             upload image
-          </span>
-       
+        </span>
+
         <select class="form-select select2">
             <option value="tile" selected>tile</option>
             <option value="center">Center</option>
             <option value="strech">Strech</option>
             <option value="fit">fit</option>
         </select>
-        
-        <span class="btn mt-1 w-100 btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+
+        <span class="btn mt-1 w-100 btn-outline-danger" 
+            onclick="remove_sec_5_img()">
             Remove
         </span><span class="btn mt-1 w-100 btn-outline-success mb-2" data-bs-toggle="modal"
             data-bs-target="#staticBackdrop">
@@ -38,8 +40,11 @@
     </div>
 </div>
 <script>
-    let sec_5_preview_image = (tag) => {
-        
+    let remove_sec_5_img = () => {
+        let s_5 = document.getElementById('sec_5_img__2');
+        s_5.src="";
+        let s_5_2 = document.getElementById('sec_5_img__1');
+        s_5_2.classList.remove('d-none');
     }
 
     const sec_5_show_image_upload_option5 = () => {
