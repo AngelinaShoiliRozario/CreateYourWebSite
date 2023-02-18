@@ -128,7 +128,7 @@
                                         </div>
                                       </div>
 
-                                    {{-- <script>
+                                    <script>
                                         $('#sec_15_fb_btn').hover(function() {
                                             if ($('#sec_15_fb_btn_container').hasClass('d-none')) {
                                                 $('#sec_15_fb_btn_container').removeClass('d-none')
@@ -136,7 +136,7 @@
                                                 $('#sec_15_fb_btn_container').addClass('d-none')
                                             }
                                         });
-                                    </script> --}}
+                                    </script>
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/" target="_blank"><i
@@ -211,25 +211,27 @@
                         <input class="d-none" type="text" name="sec_15_footer_get_in" id="sec_15_footer_get_in">
                         <div class="footer-contact-card">
                             <i class="flaticon-phone-call"></i>
-                            <a href="tel:802162020">+880 187 269 5474</a>
+                            <a class="editabletext" contenteditable="true" name="sec_15_phone_num"
+                            onblur="sec_15_phone_num_change(this)" href="tel:+44587154756"> +44 587 154756</a>
+                            <input class="d-none" type="text" name="sec_15_phone_num" id="sec_15_phone_num_id">
                         </div>
                         <div class="footer-contact-card">
                             <i class="flaticon-mailing"></i>
-                            <a href="../../cdn-cgi/l/email-protection.html#ec85828a83ac82839f83c28f8381"><span
+                            {{-- <a href="../../cdn-cgi/l/email-protection.html#ec85828a83ac82839f83c28f8381"><span
                                     class="__cf_email__"
-                                    data-cfemail="fa93949c95ba94958995d4999597">[email&#160;protected]</span></a>
+                                    data-cfemail="fa93949c95ba94958995d4999597">[email&#160;protected]</span></a> --}}
+                            <p style="color:white;" contenteditable="true" name="sec_15_email"
+                            onblur="sec_15_email_change(this)">omar.eu18@gmail.com</p>
+                            <input class="d-none" type="text" name="sec_15_email" id="sec_15_email_id">
                         </div>
                         <div class="footer-contact-card">
                             <i class="flaticon-location"></i>
                             {{-- <a href="https://goo.gl/maps/uVirgW7ijJ5harhy5" target="_blank">House:03 (2th
                                 floor),
                                 Road: 16, Sector: 11, Dhaka 1230</a> --}}
-                                <p class="contact-address editabletext" contenteditable="true" name="sec_11_address"
-                                onblur="sec_11_address_change(this)">CA 560 bush st & 20th ave, apt 5 san francisco, 230909, Canada</p>
-                                <input class="d-none" type="text" name="sec_11_address" id="sec_11_address">
-                                <a href="https://goo.gl/maps/uVirgW7ijJ5harhy5" target="_blank">House:03 (2th
-                                floor),
-                                Road: 16, Sector: 11, Dhaka 1230</a>
+                                <p style="color:white" class="editabletext" contenteditable="true" name="sec_15_house_address"
+                                onblur="sec_15_house_address_change(this)">House:03 (2th floor), Road: 16, Sector: 11, Dhaka 1230</p>
+                                <input class="d-none" type="text" name="sec_15_house_address" id="sec_15_house_address_id">
                         </div>
                     </div>
                 </div>

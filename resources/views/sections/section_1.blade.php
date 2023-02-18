@@ -5,7 +5,6 @@
             <div class="col-lg-6 image_container">
                 <div class="banner-img-3 pr-20">
                     <img src="assets/images/banner/banner-3.png" alt="image" id="blah" />
-
                     @include('components.image_background_adder')
                 </div>
             </div>
@@ -39,7 +38,6 @@
                                     id="section_1_btn_1_edit"
                                     style="background: black;text:red;padding:0.2em 0.5em;">
                                     Edit</span></span>
-
                                 </a>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"

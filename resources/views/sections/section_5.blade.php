@@ -51,27 +51,15 @@
             </div>
             <div class="col-lg-6 ">
                 <div class="why-we-img-3 ">
-                    <img src="assets/images/why-we/ww-3.png" alt="image" />
-                    @include('components.sec_5_img_background_added')
+                    <img src="assets/images/why-we/ww-3.png" alt="image" id="sec_5_img__"/>
+                    
+@include('components.section_5.img_background')
+
                 </div>
-                @include('components.sec_5_upload_img_modal')
             </div>
         </div>
     </div>
 </div>
-<script>
-    let sec_5_preview_image = (tag) => {
-        let sec_5_image_upload_subpart = document.getElementById('sec_5_image_upload_subpart_id');
-        sec_5_image_upload_subpart.classList.add('d-none');
-        const [file] = tag.files;
-        if (file) {
-            blah.src = URL.createObjectURL(file);
-        }
-        console.log(tag.files);
-    }
+@include('components.section_5.img_modal')
 
-    const sec_5_show_image_upload_option = () => {
-        let sec_5_image_upload_subpart = document.getElementById('sec_5_image_upload_subpart_id');
-        sec_5_image_upload_subpart.classList.toggle('d-none');
-    }
-</script>
+

@@ -15,6 +15,20 @@ const sec_15_footer_get_in_change = (tag) => {
     let sec_15_footer_get_in = document.getElementById("sec_15_footer_get_in");
     sec_15_footer_get_in.setAttribute("value", tag.innerHTML);
 };
+const sec_15_phone_num_change = (tag) => {
+    let sec_15_phone_num = document.getElementById("sec_15_phone_num_id");
+    let sec_15_phone_num_value = tag.innerHTML;
+    tag.href = sec_15_phone_num_value
+    sec_15_phone_num.setAttribute("value", tag.innerHTML);
+};
+const sec_15_email_change = (tag) => {
+    let sec_15_email = document.getElementById("sec_15_email_id");
+    sec_15_email.setAttribute("value", tag.innerHTML);
+};
+const sec_15_house_address_change = (tag) => {
+    let sec_15_house_address = document.getElementById("sec_15_house_address_id");
+    sec_15_house_address.setAttribute("value", tag.innerHTML);
+};
 // Section 15 footer end
 
 // Section 14 start
